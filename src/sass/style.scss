@@ -14,8 +14,8 @@ $inner: calc(64rem + 8vw);
    Basics
    ========================================================================== */
 :root {
-	--font-primary: 'Fira Sans', sans-serif;
-	--font-secondary: 'Libre Baskerville', serif;
+	--font-primary: 'Lexend Deca', sans-serif;
+	--font-secondary: 'Fira Sans', Helvetica, sans-serif;
 }
 
 html {
@@ -208,7 +208,7 @@ textarea {
 
 	b,
 	strong {
-		font-weight: 700;
+		font-weight: 600;
 		color: var(--color-content-lead);
 	}
 
@@ -226,7 +226,7 @@ textarea {
 		font-weight: 500;
 		font-size: 0.75em;
 		line-height: 1.25em;
-		font-weight: 700;
+		font-weight: 600;
 		margin-bottom: 0.33334em;
 		font-family: var(--font-primary);
 	}
@@ -731,7 +731,7 @@ textarea {
 		color: var(--color-content-main);
 		font-size: 0.75em;
 		line-height: 1.66667em;
-		font-weight: 700;
+		font-weight: 600;
 		letter-spacing: 0.5px;
 	}
 
@@ -959,7 +959,7 @@ textarea {
 	display: block;
 	margin: 0;
 	padding: 0;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 6em;
 	line-height: 1em;
 	text-decoration: none;
@@ -973,9 +973,10 @@ textarea {
 .blog-description {
 	font-family: var(--font-secondary);
 	display: block;
-	margin-top: 1rem;
+	opacity: 0.8;
+	margin-top: 2rem;
 	padding: 0;
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 1.33334em;
 	color: var(--color-content-secondary);
 }
@@ -1778,8 +1779,8 @@ textarea {
 	margin: 0 0 2rem;
 	font-size: 4em;
 	line-height: 1.25em;
-	font-weight: 700;
 	text-indent: -1px;
+	font-weight: 400;
 	color: var(--color-content-lead);
 
 	@media only screen and (max-width: $breakpoint-small) {
@@ -2097,7 +2098,7 @@ textarea {
 		.gh-btn {
 			padding: 1rem 2rem;
 			border-radius: 0.5rem;
-			font-weight: 700;
+			font-weight: 600;
 			color: white !important;
 			background: #222426 !important;
 			transition: all ease-out 0.2s;
