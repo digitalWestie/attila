@@ -1649,10 +1649,28 @@ textarea {
 .container {
 	position: relative;
 
+	.posts-grid {
+		display: grid;
+		gap: 3vh 16px;
+		grid-template-columns: repeat(auto-fit, minmax(calc(min(470px, 100%)), 1fr));
+		padding: 1.4em 0;
+
+		.inner { padding: 0 3rem; }
+	}
+
+
 	.post .post-box {
 		padding-top: calc(4rem + 2vw);
 		padding-bottom: calc(4rem + 2vw);
-		border-bottom: 1px solid var(--color-background-contrast);
+		/*border-bottom: 1px solid var(--color-background-contrast);*/
+	}
+
+	.post-image {
+		border: 0;
+		width: 100%;
+		overflow: hidden;
+		object-fit: cover;
+		max-height: 25rem;
 	}
 
 	#results .post:first-child .post-box {
